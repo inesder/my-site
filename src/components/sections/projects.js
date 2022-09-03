@@ -27,7 +27,7 @@ const StyledProjectsSection = styled.section`
   .projects-grid {
     ${({ theme }) => theme.mixins.resetList};
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-gap: 15px;
     position: relative;
     margin-top: 50px;
@@ -267,9 +267,7 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Mes autres projets</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        voir les archives
-      </Link>
+    
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
@@ -302,9 +300,7 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+    
     </StyledProjectsSection>
   );
 };
