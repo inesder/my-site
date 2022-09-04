@@ -9,7 +9,6 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
   max-width: 700px;
-  min-height: 618px;
 
   .inner {
     display: flex;
@@ -20,7 +19,7 @@ const StyledJobsSection = styled.section`
 
     // Prevent container from jumping
     @media (min-width: 700px) {
-      min-height: 380=px;
+      min-height: 340px;
     }
   }
 `;

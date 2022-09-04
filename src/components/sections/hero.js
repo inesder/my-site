@@ -61,20 +61,9 @@ const Hero = () => {
   const one = <h1>Bonjour, je suis</h1>;
   const two = <h2 className="big-heading">Inès Derraz.</h2>;
   const three = <h3 className="big-heading">Développeuse Web</h3>;
-  const four = (
-    <>
-      <p>
-        {' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          
-        </a>
-        
-      </p>
-    </>
-  );
 
 
-  const items = [one, two, three, four];
+  const items = [one, two, three];
 
   return (
     <StyledHeroSection>
