@@ -10,7 +10,7 @@ tech:
   - NodeJs
   - Mailchimp
 company: ''
-showInProjects: false
+showInProjects: true
 ---
 
 Création d'une newsletter avec Mailchimp

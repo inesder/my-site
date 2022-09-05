@@ -9,7 +9,7 @@ tech:
   - JS
   - MongoDB
 company: ''
-showInProjects: false
+showInProjects: true
 ---
 
 Jeu de dés, actualisez la page pour découvrir le vainqueur.
