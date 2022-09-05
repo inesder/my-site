@@ -63,6 +63,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">Développeuse Web</h3>;
 
 
+
   const items = [one, two, three];
 
   return (
